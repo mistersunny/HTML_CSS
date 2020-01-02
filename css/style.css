@@ -483,12 +483,14 @@ body {
 }
 
 .usefull-information-menu a {
+    display: inline-block;
     color: #212121;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.7px;
     text-decoration: none;
+    padding-bottom: 10px;
 }
 
 .lets-stay-in-touch p {
@@ -517,7 +519,7 @@ input[type="submit"] {
 
 .email input::placeholder {
     line-height: 48px;
-    padding-left: 9px;
+    padding-left: 4px;
     color: #6c6c6c;
     font-size: 14px;
     font-weight: 300;
