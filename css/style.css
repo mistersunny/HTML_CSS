@@ -351,7 +351,6 @@ body {
 .hot-deal-slider {
     margin-top: 120px;
     height: 800px;
-    width: 1366px;
     background-image: url(../img/slider.jpg);
     position: relative;
 }
@@ -386,6 +385,10 @@ body {
     grid-row-end: 3;
 }
 
+.exclusive-grid-text{
+    margin-top: 186px;
+    margin-left: 30px;
+}
 .exclusive-grid-content {
     width: 332px;
     color: #6c6c6c;
