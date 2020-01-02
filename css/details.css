@@ -1,0 +1,140 @@
+.head {
+    height: 119px;
+}
+
+.links {
+    height: 70px;
+    background-image: url(../img/back.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-links {
+    width: 647px;
+    height: 13px;
+    background-image: url(../img/back.jpg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+
+.link a {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+}
+
+.link-active a {
+    color: #212121;
+
+    font-family: Montserrat;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.8px;
+}
+
+.link:hover {
+    border-bottom: 1px solid #000;
+}
+
+.product {
+    
+    margin-top: 72px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.product-slider {
+    width: 570px
+}
+
+.controls,
+.product-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.product-text {
+    padding-top: 47px;
+    width: 796px;
+    flex-direction: column;
+}
+
+.product-text h1 {
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.product-text h2 {
+    margin-top: 20px;
+    color: #e53935;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+}
+
+.price {
+    color: #212121;
+    font-family: Gotham;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.product-text span {
+    color: #212121;
+    font-family: Gotham;
+    font-weight: 300;
+    font-size: 72px;
+    text-transform: uppercase;
+}
+
+.button-red {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    position: relative;
+    color: #ffffff;
+    height: 70px;
+    width: 510px;
+    letter-spacing: 3.6px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 2px 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 35px;
+    background-color: #f44336;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.button-red img {
+    position: absolute;
+    top: 20px;
+    right: 151px;
+}
+
+.content {
+    width: 499px;
+    color: #212121;
+font-family: Gotham;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+    text-align: justify;
+}
+.trending-products-list { 
+    height: 468px;
