@@ -403,6 +403,7 @@ body {
     margin-top: 120px;
     width: 1366px;
     height: 516px;
+    background-image: url(../img/back-img.jpg);
 }
 
 .mobile-app-text {
