@@ -1,0 +1,58 @@
+.head {
+    background-image: url(../img/hero-back.svg);
+    height: 360px;
+}
+
+.head h1 {
+    padding-top: 168px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+
+.contacts {
+    margin-top: 70px;
+    margin-bottom: 122px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    border-top: 2px solid #c2c2c2;
+    border-left: 2px solid #c2c2c2;
+    width: 368px;
+    height: 368px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h2 {
+    margin-top: 34px;
+    margin-bottom: 23px;
+    width: 137px;
+    height: 16px;
+}
+
+.info p {
+    color: #6c6c6c;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.info a {
+    text-decoration: none;
+    color: #212121;
+    font-family: "Montserrat - Bold";
+    font-weight: 700;
+}
+
+.info span {
+    font-family: "Montserrat Light";
+    font-weight: 300;
+    font-size: 14px;
+}
