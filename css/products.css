@@ -1,7 +1,62 @@
-
-
-
 .head {
-        background-image: url(../img/hero-back.svg);
+    background-image: url(../img/hero-back.svg);
     height: 360px;
+}
+
+.head h1 {
+    padding-top: 168px;
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    text-transform: capitalize;
+}
+.catalog{
+    margin-top: 71px;
+
+}
+.catalog-menu-list {
+    float: left;
+}
+.catalog-menu-link {
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: bold;
+    padding-left: 9px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #6c6c6c;
+}
+.catalog-menu-link:hover {
+    border-bottom: 3px solid black;
+}
+.catalog-menu-link-active {
+    color: #212121;
+    letter-spacing: 1.8px;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: bold;
+    padding-left: 9px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid black;
+}
+.catalog-items{
+    padding-top: 50px;
+    display: grid;
+    width: 1170px;
+    grid-template-columns: 370px 370px 370px;
+    grid-template-rows: 370px 370px 370px 370px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+.reboot{
+    margin-top: 70px;
+    margin-bottom: 140px;
+    display:flex;
+    justify-content: center;
 }
